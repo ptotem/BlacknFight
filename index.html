@@ -13,20 +13,20 @@
                 </div>
 
                 <div class="block" id="menu">
-                    <div id="heading">
-                        <h2>Black And Fight</h2>
+                    <div id="heading" class="menu">
+                        <h2><span class="black_text">BLACK</span><span class="and_text">and</span><span class="fight_text">FIGHT</span></h2>
                     </div>
-                    <div id="start_game">
+                    <div id="start_game" class="menu">
                         <h1>Start</h1>
                     </div>
 
-                    <div id="tutorial">
+                    <div id="tutorial" class="menu">
                         <h3>Tutorial</h3>
                     </div>
-                    <div id="reset_bot">
+                    <div id="reset_bot" class="menu">
                         <h4>Reset Bot</h4>
                     </div>
-                    <div id="menu_logo">
+                    <div id="menu_logo" class="menu">
 
                     </div>
                 </div>
@@ -45,10 +45,11 @@
                         <p>CLICK A SQUARE TO HIT. THE BOT WILL TRY AND GUESS THE SQUARE TO BLOCK IT. IF IT FAILS, IT TAKES DAMAGE. IF IT SUCCEEDS, THE TURN TO ATTACK PASSES TO THE BOT. </p>
                     </div>
                     <div id="attack_mode_playing_area" class="playing_area">
-                        <div id="attack_mode_top_left_block" class="playing_box"></div>
-                        <div id="attack_mode_top_right_block" class="playing_box"></div>
-                        <div id="attack_mode_bottom_left_block" class="playing_box"></div>
-                        <div id="attack_mode_bottom_right_block" class="playing_box"></div>
+                        <div id="attack_mode_top_left_block" class="playing_box pb_attack"></div>
+                        <div id="attack_mode_top_right_block" class="playing_box pb_attack"></div>
+                        <div id="attack_mode_bottom_left_block" class="playing_box pb_attack"></div>
+                        <div id="attack_mode_bottom_right_block" class="playing_box pb_attack"></div>
+                        <div id="attack_mode_status">Damage</div>
                     </div>
                 </div>
 
@@ -64,10 +65,24 @@
                         <div class="mode_text" style="color: #000000">MODE</div>
                     </div>
                     <div id="defend_mode_playing_area" class="playing_area">
-                        <div id="defend_mode_top_left_block" class="playing_box"></div>
-                        <div id="defend_mode_top_right_block" class="playing_box"></div>
-                        <div id="defend_mode_bottom_left_block" class="playing_box"></div>
-                        <div id="defend_mode_bottom_right_block" class="playing_box"></div>
+                        <div id="defend_mode_top_left_block" class="playing_box pb_block">
+                            <div id="defend_timing"></div>
+                        </div>
+                        <div id="defend_mode_top_right_block" class="playing_box pb_block"></div>
+                        <div id="defend_mode_bottom_left_block" class="playing_box pb_block"></div>
+                        <div id="defend_mode_bottom_right_block" class="playing_box pb_block"></div>
+                        <div id="defend_mode_status">Damage</div>
+                    </div>
+                </div>
+
+                <div class="block" id="game_over">
+                    <div id="game_over_heading">
+                        <h2>Black And Fight</h2>
+                    </div>
+                    <div id="status">
+                        <h1>You Lost/Win</h1>
+                        <p>The Bot clearly got the better of you. Remember, be unpredicatable to outsmart the Bot.</p>
+                        <p>But the Bot got smarter. He has studied your fighting style and will be better next time.</p>
                     </div>
                 </div>
             </div>
