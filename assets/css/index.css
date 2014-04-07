@@ -1,0 +1,86 @@
+html body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.container{
+    height: 1024px;
+    width: 768px;
+    background-image:url('../img/background.jpg');
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block{
+    display: none;
+}
+
+
+#menu{
+    display: none;
+    border: 1px solid blue;
+}
+
+
+#logo{
+    background-image: url("../img/gameslogo.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 32%;
+    position: absolute;
+    top: 25%;
+    width: 33%;
+    display: none;
+
+}
+
+
+#heading{
+    color: #FFFFFF;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    width: 30%;
+    text-align: center;
+}
+
+#start_game{
+    color: #FFFFFF;
+    position: absolute;
+    top: 29%;
+    left: 32%;
+    width: 30%;
+    text-align: center;
+}
+
+#tutorial{
+    color: #FFFFFF;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    width: 30%;
+    text-align: center;
+}
+
+#reset_bot{
+    color: #FFFFFF;
+    position: absolute;
+    top: 39%;
+    left: 32%;
+    width: 30%;
+    text-align: center;
+}
+
+#menu_logo{
+    background-image: url("../img/LoadingTransparent.gif");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    height: 11%;
+    left: 40%;
+    position: absolute;
+    top: 45%;
+    width: 15%;
+    text-align: center;
+}
