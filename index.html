@@ -31,27 +31,44 @@
                     </div>
                 </div>
 
-                <div style="margin-left: 30%;">
-                <p><span style="font-size: 35px;font-family: arial;">BLACK</span><span style="color:grey;font-size: 32px;">and</span><span style="font-size: 35px;font-family: arial;color:white;">FIGHT</span></p>
-                </div>
-
-                <div style="height:100px;width:150px;background-color: black;float: left;margin-left: 15%;">
-                    <div style="text-align: center;font-size: 25px;color:white;margin-top: 15px;">ATTACK</div>
-                    <div style="text-align: center;font-size: 20px;color:white">MODE</div>
-                </div>
-                <div style="height:100px;width:400px;background-color: white;float:left;">
-                    <p style="padding: 5px;font-family: arial;font-size: 14px;">CLICK A SQUARE TO HIT. THE BOT WILL TRY AND GUESS THE SQUARE TO BLOCK IT.
-
-                        IF IT FAILS, IT TAKES DAMAGE. IF IT SUCCEEDS, THE TURN TO ATTACK PASSES TO THE BOT. </p>
-                </div>
 
 
                 <div class="block" id="attack_mode">
-
-
+                    <div id="attack_mode_header">
+                        <p><span class="black_text">BLACK</span><span class="and_text">and</span><span class="fight_text">FIGHT</span></p>
+                    </div>
+                    <div id="attack_mode_instruction">
+                        <div id="attack_mode_name">ATTACK</div>
+                        <div class="mode_text" style="color: #ffffff">MODE</div>
+                    </div>
+                    <div id="attack_mode_description">
+                        <p>CLICK A SQUARE TO HIT. THE BOT WILL TRY AND GUESS THE SQUARE TO BLOCK IT. IF IT FAILS, IT TAKES DAMAGE. IF IT SUCCEEDS, THE TURN TO ATTACK PASSES TO THE BOT. </p>
+                    </div>
+                    <div id="attack_mode_playing_area" class="playing_area">
+                        <div id="attack_mode_top_left_block" class="playing_box"></div>
+                        <div id="attack_mode_top_right_block" class="playing_box"></div>
+                        <div id="attack_mode_bottom_left_block" class="playing_box"></div>
+                        <div id="attack_mode_bottom_right_block" class="playing_box"></div>
+                    </div>
                 </div>
-                <div class="block" id="defend_mode">
 
+                <div class="block" id="defend_mode">
+                    <div id="defend_mode_header">
+                        <p><span class="black_text">BLACK</span><span class="and_text">and</span><span class="fight_text">FIGHT</span></p>
+                    </div>
+                    <div id="defend_mode_description">
+                        <p>THE BOT WILL FEINT 3 TIMES IN A COUNTDOWN AND THEN HIT A SQUARE. TRY AND FIGURE THE PATTERN AND CLICK ON A SQUARE TO BLOCK IT. IF YOU FAIL, YOU TAKE DAMAGE. IF YOU SUCCEED, THE TURN TO ATTACK PASSES TO YOU. </p>
+                    </div>
+                    <div id="defend_mode_instruction">
+                        <div id="defend_mode_name">BLOCK</div>
+                        <div class="mode_text" style="color: #000000">MODE</div>
+                    </div>
+                    <div id="defend_mode_playing_area" class="playing_area">
+                        <div id="defend_mode_top_left_block" class="playing_box"></div>
+                        <div id="defend_mode_top_right_block" class="playing_box"></div>
+                        <div id="defend_mode_bottom_left_block" class="playing_box"></div>
+                        <div id="defend_mode_bottom_right_block" class="playing_box"></div>
+                    </div>
                 </div>
             </div>
         </div>

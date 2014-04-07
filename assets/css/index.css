@@ -13,10 +13,6 @@ html body{
     position: relative;
 }
 
-/*.block{*/
-    /*display: none;*/
-/*}*/
-
 
 #menu{
     display: none;
@@ -85,3 +81,172 @@ html body{
     text-align: center;
 }
 
+.block, #attack_mode, #defend_mode{
+    display: none;
+}
+
+
+.playing_area {
+    position: absolute;
+    height: auto;
+    width: 690px;
+    left: 0;
+    top: 20%;
+    /*border: 1px solid #FF0000;*/
+    padding: 5%;
+}
+
+.playing_box {
+    height: 280px;
+    width: 280px;
+    margin: 2px;
+    /*background-color: #FFFFFF;*/
+}
+
+#attack_mode_top_left_block{
+    float: left;
+    left:0;
+    top:0;
+    margin-left: 10%;
+    background-color: #FFFFFF;
+}
+
+#attack_mode_top_right_block{
+    /*display: none;*/
+    float: left;
+    left: 40%;
+    top:0;
+    background-color: #ffdd1d;
+}
+
+#attack_mode_bottom_left_block{
+    /*display: none;*/
+    float: left;
+    left:0;
+    top:40%;
+    margin-left: 10%;
+    background-color: #68fff8;
+}
+
+#attack_mode_bottom_right_block{
+    /*display: none;*/
+    float: left;
+    left:40%;
+    top:40%;
+    background-color: #600bff;
+}
+
+#defend_mode_top_left_block{
+    float: left;
+    left:0;
+    top:0;
+    margin-left: 10%;
+    background-color: #FFFFFF;
+}
+
+#defend_mode_top_right_block{
+    /*display: none;*/
+    float: left;
+    left: 40%;
+    top:0;
+    background-color: #ffdd1d;
+}
+
+#defend_mode_bottom_left_block{
+    /*display: none;*/
+    float: left;
+    left:0;
+    top:40%;
+    margin-left: 10%;
+    background-color: #68fff8;
+}
+
+#defend_mode_bottom_right_block{
+    /*display: none;*/
+    float: left;
+    left:40%;
+    top:40%;
+    background-color: #600bff;
+}
+
+
+#attack_mode_header, #defend_mode_header {
+   margin-left: 30%;
+}
+
+.black_text{
+   font-size: 35px;
+    font-family: arial;
+}
+
+.and_text
+{
+   color:grey;
+   font-size: 32px;
+}
+
+.fight_text{
+     font-size: 35px;
+     font-family: arial;
+     color:white;
+}
+
+#attack_mode_instruction
+{
+   height:100px;
+    width:150px;
+    background-color: black;
+    float: left;
+    margin-left: 15%;
+}
+
+#defend_mode_instruction
+{
+    /*margin-left: 15%;*/
+    background-color: white;
+    color: #000000;
+    float: left;
+    height:100px;
+    width:150px;
+}
+
+#defend_mode_description{
+    background-color: #000000;
+    color: #FFFFFF;
+    float: left;
+    height: 100px;
+    margin-left: 15%;
+    width: 400px;
+}
+
+#defend_mode_name {
+    text-align: center;
+    font-size: 25px;
+    color:#000000;
+    margin-top: 15px;
+}
+
+#attack_mode_name{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    margin-top: 15px;
+}
+
+.mode_text {
+    text-align: center;
+    font-size: 20px;
+}
+
+#attack_mode_description{
+    height:100px;
+    width:400px;
+    background-color: white;
+    float:left;
+}
+
+#attack_mode_description p, #defend_mode_description p{
+    padding: 5px;
+    font-family: arial;
+    font-size: 14px;
+}
