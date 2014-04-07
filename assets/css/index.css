@@ -85,27 +85,3 @@ html body{
     text-align: center;
 }
 
-#title
-{
- font-size: 35px;
-  font-family: arial;
-}#title1
-{
-  color:grey;
-     font-size: 32px;
-}
-
- #title2
- {
-font-size: 35px;
-     font-family: arial;
-     color:white;
- }
- #whiteblack
- {
-    height:100px;
-     width:150px;
-     background-color: black;
-     float: left;
-     margin-left: 15%;
- }
