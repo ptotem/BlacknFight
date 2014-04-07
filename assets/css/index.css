@@ -84,3 +84,53 @@ html body{
     width: 15%;
     text-align: center;
 }
+
+#playing_area {
+    position: absolute;
+    height: auto;
+    width: 690px;
+    left: 0;
+    top: 20%;
+    /*border: 1px solid #FF0000;*/
+    padding: 5%;
+}
+
+.playing_box {
+    height: 280px;
+    width: 280px;
+    margin: 2px;
+    /*background-color: #FFFFFF;*/
+}
+
+#top_left_block{
+    float: left;
+    left:0;
+    top:0;
+    margin-left: 10%;
+    background-color: #FFFFFF;
+}
+
+#top_right_block{
+    /*display: none;*/
+    float: left;
+    left: 40%;
+    top:0;
+    background-color: #ffdd1d;
+}
+
+#bottom_left_block{
+    /*display: none;*/
+    float: left;
+    left:0;
+    top:40%;
+    margin-left: 10%;
+    background-color: #68fff8;
+}
+
+#bottom_right_block{
+    /*display: none;*/
+    float: left;
+    left:40%;
+    top:40%;
+    background-color: #600bff;
+}
