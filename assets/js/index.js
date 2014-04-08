@@ -10,12 +10,20 @@ $(function(){
 function init(){
     setTimeout(function(){
         $('.block').hide();
-        $('#logo').fadeIn('slow');
+        $('#logo').fadeIn(1500);
+
         setTimeout(function(){
-            $('.block').hide();
-            $('#menu').show();
-        },2000)
-    },1000)
+            $('#logo').fadeOut('slow');
+
+            setTimeout(function(){
+                $('.block').hide();
+                $('#menu').show();
+            },1000);
+
+        },3000);
+    },500)
+
+
 
     $('#start_game').click(function(){
         $('.block').hide();
