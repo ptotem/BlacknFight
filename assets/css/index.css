@@ -7,7 +7,7 @@ html, body{
 .container{
     height: 1024px;
     width: 768px;
-    background-image:url('../img/background.jpg');
+    background-image:url('../images/background.jpg');
     background-size: 100% 100%;
     margin: 0 auto;
     position: relative;
@@ -21,7 +21,7 @@ html, body{
 
 
 #logo{
-    background-image: url("../img/gameslogo.png");
+    background-image: url("../images/gameslogo.png");
     background-repeat: no-repeat;
     height: 100%;
     left: 32%;
@@ -37,46 +37,53 @@ html, body{
     color: #FFFFFF;
     position: absolute;
     top: 25%;
-    left: 32%;
-    width: 30%;
+    left: 23%;
+    width: 50%;
     text-align: center;
 }
 
 #start_game{
     color: #FFFFFF;
     position: absolute;
-    top: 29%;
+    top: 32%;
     left: 32%;
     width: 30%;
     text-align: center;
+    font-size: 32px;
+    font-family: arial;
 }
 
 #tutorial{
-    color: #FFFFFF;
+    color:#d1d1d1;
     position: absolute;
-    top: 35%;
+    top: 43%;
     left: 32%;
     width: 30%;
     text-align: center;
+    font-family: arial;
+    font-size: 27px;
 }
 
 #reset_bot{
-    color: #FFFFFF;
+    color:#d1d1d1;
     position: absolute;
-    top: 39%;
+    top: 49%;
     left: 32%;
     width: 30%;
     text-align: center;
+    font-family: arial;
+    font-size: 32px;
+
 }
 
 #menu_logo{
-    background-image: url("../img/LoadingTransparent.gif");
+    background-image: url("../images/LoadingTransparent.gif");
     background-repeat: no-repeat;
     background-size: 80% 80%;
     height: 11%;
     left: 40%;
     position: absolute;
-    top: 45%;
+    top: 65%;
     width: 15%;
     text-align: center;
 }
@@ -101,7 +108,7 @@ html, body{
     height: 280px;
     width: 280px;
     margin: 2px;
-    background-color: #000000;
+    background-color: #525252;
 }
 
 
@@ -173,20 +180,24 @@ html, body{
 }
 
 .black_text{
-   font-size: 35px;
+   font-size: 42px;
     font-family: arial;
+    color:#000000;
+    font-weight: bold;
 }
 
 .and_text
 {
    color:grey;
-   font-size: 32px;
+   font-size: 35px;
+    font-family: arial;
 }
 
 .fight_text{
-     font-size: 35px;
+     font-size: 40px;
      font-family: arial;
      color:white;
+    font-weight: bold;
 }
 
 #attack_mode_instruction
@@ -215,6 +226,7 @@ html, body{
     height: 100px;
     margin-left: 15%;
     width: 400px;
+    text-align: center;
 }
 
 #defend_mode_name {
@@ -222,18 +234,23 @@ html, body{
     font-size: 25px;
     color:#000000;
     margin-top: 15px;
+    font-family: arial;
 }
 
 #attack_mode_name{
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     color:white;
-    margin-top: 15px;
+    margin-top: 25px;
+    font-family: arial;
 }
 
 .mode_text {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: arial;
+    color: #ffffff;
+    margin-top: 5px;
 }
 
 #attack_mode_description{
@@ -241,12 +258,14 @@ html, body{
     width:400px;
     background-color: white;
     float:left;
+    text-align: center;
 }
 
 #attack_mode_description p, #defend_mode_description p{
-    padding: 5px;
+    padding: 3px;
     font-family: arial;
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 
@@ -263,9 +282,19 @@ html, body{
 #status{
     color: #FFFFFF;
     position: absolute;
-    top: 29%;
+    top: 35%;
+    left: 17%;
+    width: 60%;
+    text-align: center;
+
+}
+
+#result_status{
+    color: #FFFFFF;
+    position: absolute;
+    top: 39%;
     left: 32%;
-    width: 31%;
+    width: 80%;
     text-align: center;
 
 }
@@ -296,3 +325,4 @@ html, body{
     color:white;
     background: #000000;
 }
+
