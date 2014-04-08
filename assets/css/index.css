@@ -1,6 +1,7 @@
 html, body{
     overflow-x: hidden;
     overflow-y: scroll;
+    font-family: arial;
 
 }
 
@@ -16,7 +17,7 @@ html, body{
 
 #menu{
     display: none;
-    border: 1px solid blue;
+
 }
 
 
@@ -227,6 +228,8 @@ html, body{
     margin-left: 15%;
     width: 400px;
     text-align: center;
+    font-size: 14px;
+    padding: 10px;
 }
 
 #defend_mode_name {
@@ -282,10 +285,11 @@ html, body{
 #status{
     color: #FFFFFF;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 17%;
     width: 60%;
     text-align: center;
+    font-family: arial;
 
 }
 
@@ -324,5 +328,14 @@ html, body{
 #defend_mode_status{
     color:white;
     background: #000000;
+}
+#you_win_text{
+   font-size: 50px;
+}
+
+#you_win_discrptn{
+    padding-top:0px;
+    padding-left: 20px;
+    font-family: arial;
 }
 
