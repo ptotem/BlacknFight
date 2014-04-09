@@ -27,7 +27,7 @@ function init(){
 
     $('#start_game').click(function(){
         $('.block').hide();
-        $('#defend_mode').show();
+        $('#attack_mode').show();
 
     });
 
